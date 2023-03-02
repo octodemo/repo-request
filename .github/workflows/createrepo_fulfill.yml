@@ -4,7 +4,7 @@ on:
     types:
       - created
 env:
-  LGTM_TEAM: lgtm
+  LGTM_TEAM: repo-automate-approvers
 jobs:
   fulfill:
     name: Fulfill issue
