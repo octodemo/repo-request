@@ -20,7 +20,7 @@ body:
       label: Repository owner
       description: Select an owner
       options:
-        - tinyfists
+        - octodemo
     validations:
       required: true
   - type: input
