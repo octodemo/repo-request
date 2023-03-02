@@ -1,13 +1,17 @@
-name: 'Create Repo'
+# GitHub Enterprise Documentation:
+# - https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-issue-forms
+# - https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-githubs-form-schema
+#
+name: Create Repo
 description: Request creation of GitHub repository
-title: "repo-naming-structure"
+title: 'repo-naming-structure'
 labels:
   - administration
   - createrepo
 body:
   - type: markdown
     attributes:
-    value: |
+      value: |
         Need repository created?
 
         Fill out this form, get a `/lgtm` comment, and you're golden!
