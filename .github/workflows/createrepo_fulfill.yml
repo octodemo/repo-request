@@ -9,7 +9,7 @@ jobs:
   fulfill:
     name: Fulfill issue
     runs-on: ubuntu-20.04
-    if: contains(github.event.issue.labels.*.name, 'createrepo') && github.event.issue.state == 'open' && startsWith(github.event.comment.body, '/aprobado')
+    if: contains(github.event.issue.labels.*.name, 'createrepo') && github.event.issue.state == 'open' && startsWith(github.event.comment.body, '/lgtm')
     steps:
       - name: Fulfill
         uses: andyfeller/issueops-createrepo/fulfill@v1
